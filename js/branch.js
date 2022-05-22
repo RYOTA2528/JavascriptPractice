@@ -25,3 +25,25 @@ else if(y >= 80){
 } else {
   console.log('D');
 }
+
+//Switch文による条件分岐
+//変数nの値が1だったら、『数値は1です』
+//変数nの値が1だったら、『数値は2です』
+//変数nの値が1だったら、『数値は3です』
+//変数nの値が1だったら、『範囲外です』とコンソールで表示
+
+var n = 1;
+switch(n) {
+  case 1:
+    console.log('数値は1です');
+    break;
+  case 2:
+    console.log('数値は2です');
+    break;
+  case 3:
+    console.log('数値は3です');
+    break;
+  default:
+    console.log('範囲外です')
+    break;
+}
